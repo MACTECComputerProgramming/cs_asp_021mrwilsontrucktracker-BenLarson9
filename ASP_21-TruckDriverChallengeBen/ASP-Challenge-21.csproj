@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ASP_Challenge_21</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="color.png" />
+    <None Remove="color2.png" />
+    <None Remove="color3.png" />
+    <None Remove="color4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="color.png" />
+    <Resource Include="color2.png" />
+    <Resource Include="color3.png" />
+    <Resource Include="color4.png" />
+  </ItemGroup>
+
+</Project>
